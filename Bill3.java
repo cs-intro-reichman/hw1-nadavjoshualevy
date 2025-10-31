@@ -9,6 +9,6 @@ public class Bill3 {
 	    double bill = Double.parseDouble(args[3]);//input 4
 		double share = bill / 3;
         double roudedShare = Math.ceil(share);
-	    System.out.println("Dear " + name3 + ", " + name2 + " "  + name1 + ": pay " + roudedShare + " Shekels each."); 
+	    System.out.println("Dear " + name3 + ", " + name2 + ", and "  + name1 + ": pay " + roudedShare + " Shekels each."); 
 	}
 }
